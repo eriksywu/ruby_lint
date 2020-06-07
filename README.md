@@ -8,7 +8,7 @@
 ***
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rubocop-hq/rubocop/master/logo/rubo-logo-horizontal.png" alt="RuboCop Logo"/>
+  <img src="https://raw.githubusercontent.com/ruby-lint/ruby_lint/logo/ruby-lint-logo.png" alt="RubyLint Logo"/>
 </p>
 
 ----------

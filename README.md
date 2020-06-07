@@ -25,40 +25,37 @@
 [![OpenCollective](https://opencollective.com/rubocop/sponsors/badge.svg)](#open-collective-sponsors)
 [![Tidelift](https://tidelift.com/badges/package/rubygems/rubocop)](https://tidelift.com/subscription/pkg/rubygems-rubocop?utm_source=rubygems-rubocop&utm_medium=referral&utm_campaign=readme)
 
-> Role models are important. <br/>
-> -- Officer Alex J. Murphy / RoboCop
-
-**RuboCop** is a Ruby static code analyzer (a.k.a. `linter`) and code formatter. Out of the box it
+**Ruby Lint** is a Ruby static code analyzer (a.k.a. `linter`) and code formatter. Out of the box it
 will enforce many of the guidelines outlined in the community [Ruby Style
 Guide](https://rubystyle.guide). Apart from reporting the problems discovered in your code,
-RuboCop can also automatically fix many of them you.
+Ruby Lint can also automatically fix many of them you.
 
-RuboCop is extremely flexible and most aspects of its behavior can be tweaked via various
-[configuration options](https://github.com/rubocop-hq/rubocop/blob/master/config/default.yml).
+Ruby Lint is extremely flexible and most aspects of its behavior can be tweaked via various
+[configuration options](https://github.com/ruby-lint/ruby_lint/blob/trunk/config/default.yml).
 
 **Please consider [financially supporting its ongoing development](#funding).**
 
 ## Installation
 
-**RuboCop**'s installation is pretty standard:
+**Ruby Lint**'s installation is pretty standard:
 
 ```sh
-$ gem install rubocop
+$ gem install ruby_lint
 ```
 
-If you'd rather install RuboCop using `bundler`, add a line for it in your `Gemfile` (but set the `require` option to `false`, as it is a standalone tool):
+If you'd rather install Ruby Lint using `bundler`, add a line for it in your `Gemfile` (but set the `require` option to `false`, as it is a standalone tool):
 
 ```rb
-gem 'rubocop', require: false
+gem 'ruby_lint', require: false
 ```
 
-RuboCop's development is moving at a very rapid pace and there are
+Ruby Lint's development is moving at a very rapid pace and there are
 often backward-incompatible changes between minor releases (since we
-haven't reached version 1.0 yet). To prevent an unwanted RuboCop update you
+haven't reached version 1.0 yet). To prevent an unwanted Ruby Lint update you
 might want to use a conservative version lock in your `Gemfile`:
 
 ```rb
-gem 'rubocop', '~> 0.85.0', require: false
+gem 'ruby_lint', '~> 0.85.0', require: false
 ```
 
 ## Quickstart
@@ -67,23 +64,23 @@ Just type `rubocop` in a Ruby project's folder and watch the magic happen.
 
 ```
 $ cd my/cool/ruby/project
-$ rubocop
+$ ruby_lint
 ```
 
 ## Documentation
 
-You can read a lot more about RuboCop in its [official docs](https://docs.rubocop.org).
+You can read a lot more about Ruby Lint in its [official docs](https://docs.rubocop.org).
 
 ## Compatibility
 
-RuboCop supports the following Ruby implementations:
+Ruby Lint supports the following Ruby implementations:
 
 * MRI 2.4+
 * JRuby 9.2+
 
 ## Team
 
-Here's a list of RuboCop's core developers:
+Here's a list of Ruby Lint's core developers:
 
 * [Bozhidar Batsov](https://github.com/bbatsov) (author & head maintainer)
 * [Jonas Arvidsson](https://github.com/jonas054)
@@ -96,32 +93,32 @@ Here's a list of RuboCop's core developers:
 
 ## Logo
 
-RuboCop's logo was created by [Dimiter Petrov](https://www.chadomoto.com/). You can find the logo in various
-formats [here](https://github.com/rubocop-hq/rubocop/tree/master/logo).
+Ruby Lint's logo was created by [Coraline Ada Ehmke](https://github.com/CoralineAda). You can find the logo in various
+formats [here](https://github.com/ruby-lint/ruby_lint/tree/trunk/logo).
 
 The logo is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB).
 
 ## Contributors
 
-Here's a [list](https://github.com/rubocop-hq/rubocop/graphs/contributors) of
-all the people who have contributed to the development of RuboCop.
+Here's a [list](https://github.com/ruby-lint/ruby_lint/graphs/contributors) of
+all the people who have contributed to the development of Ruby Lint.
 
 I'm extremely grateful to each and every one of them!
 
-If you'd like to contribute to RuboCop, please take the time to go
+If you'd like to contribute to Ruby Lint, please take the time to go
 through our short
 [contribution guidelines](CONTRIBUTING.md).
 
-Converting more of the Ruby Style Guide into RuboCop cops is our top
-priority right now. Writing a new cop is a great way to dive into RuboCop!
+Converting more of the Ruby Style Guide into Ruby Lint rules is our top
+priority right now. Writing a new rule is a great way to dive into Ruby Lint!
 
 Of course, bug reports and suggestions for improvements are always
 welcome. GitHub pull requests are even better! :-)
 
 ## Funding
 
-While RuboCop is free software and will always be, the project would benefit immensely from some funding.
+While Ruby Lint is free software and will always be, the project would benefit immensely from some funding.
 Raising a monthly budget of a couple of thousand dollars would make it possible to pay people to work on
 certain complex features, fund other development related stuff (e.g. hardware, conference trips) and so on.
 Raising a monthly budget of over $5000 would open the possibility of someone working full-time on the project
@@ -133,10 +130,10 @@ wide array of funding channels to account for your preferences
 currently [Open Collective](https://opencollective.com/rubocop) is our
 preferred funding platform).
 
-If you're working in a company that's making significant use of RuboCop we'd appreciate it if you suggest to your company
-to become a RuboCop sponsor.
+If you're working in a company that's making significant use of Ruby Lint we'd appreciate it if you suggest to your company
+to become a Ruby Lint sponsor.
 
-You can support the development of RuboCop via
+You can support the development of Ruby Lint via
 [GitHub Sponsors](https://github.com/sponsors/bbatsov),
 [Patreon](https://www.patreon.com/bbatsov),
 [PayPal](https://paypal.me/bbatsov)
@@ -214,7 +211,7 @@ Become a sponsor and get your logo on our README on GitHub with a link to your s
 
 ## Changelog
 
-RuboCop's changelog is available [here](CHANGELOG.md).
+Ruby Lint's changelog is available [here](CHANGELOG.md).
 
 ## Copyright
 

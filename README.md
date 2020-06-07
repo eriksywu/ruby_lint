@@ -8,7 +8,7 @@
 ***
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ruby-lint/ruby_lint/master/logo/ruby-lint-logo.png" alt="RubyLint Logo"/>
+  <img src="https://raw.githubusercontent.com/ruby-lint/ruby_lint/trunk/logo/ruby-lint-logo.png" alt="RubyLint Logo"/>
 </p>
 
 ----------
